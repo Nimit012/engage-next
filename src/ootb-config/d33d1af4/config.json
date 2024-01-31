@@ -1,0 +1,25 @@
+{
+    "integrations": {
+        "identityApp": {
+            "appEnv": "STAGE",
+            "appId": "DIFUSION_ENGAGE"
+        },
+        "identityBackoffice": {
+            "appEnv": "STAGE",
+            "appId": "BACKOFFICE"
+        }
+    },
+    "tenantConfigs": {
+        "5ex3b5": {
+            "tenantId": "5ex3b5",
+            "displayName": "Difusion",
+            "ams-client-id": "compro",
+            "ams-url": "https://config-qa.engage.comprodls.com/compro/ams",
+            "apps": {
+                "expapp": {
+                    "configBasePath": "ootb/"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "integrations": {
+        "identityApp": {
+            "appEnv": "THOR",
+            "appId": "ENGAGE_ORION"
+        },
+        "identityBackoffice": {
+            "appEnv": "THOR",
+            "appId": "BACKOFFICE_ORION_PREVIEW"
+        }
+    },
+    "tenantConfigs": {
+        "gt7p77": {
+            "tenantId": "gt7p77",
+            "displayName": "ORION",
+            "ams-client-id": "difusion",
+            "ams-url": "https://config-qa.engage.comprodls.com/difusion/ams",
+            "apps": {
+                "expapp": {
+                    "configBasePath": "ootb/"
+                }
+            }
+        }
+    }
+}

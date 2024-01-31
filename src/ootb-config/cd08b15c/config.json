@@ -1,0 +1,25 @@
+{
+    "integrations": {
+        "identityApp": {
+            "appEnv": "THOR",
+            "appId": "ENGAGE_LEO"
+        },
+        "identityBackoffice": {
+            "appEnv": "THOR",
+            "appId": "BACKOFFICE_LEO_PREVIEW"
+        }
+    },
+    "tenantConfigs": {
+        "9h2h93": {
+            "tenantId": "9h2h93",
+            "ams-client-id": "difusion",
+            "ams-url": "https://config-qa.engage.comprodls.com/difusion/ams",
+            "displayName": "Leo",
+            "apps": {
+                "expapp": {
+                    "configBasePath": "ootb/"
+                }
+            }
+        }
+    }
+}

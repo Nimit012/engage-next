@@ -1,0 +1,65 @@
+{
+  "palette": {
+    "primary": {
+      "main": "#faf8f7",
+      "light": "#ffffff",
+      "dark": "#dcd9d8",
+      "contrastText": "#292524",
+      "contrastText2": "#807f7f",
+      "contrastTextLight": "#292524",
+      "contrastTextLight2": "#807f7f",
+      "contrastTextDark": "#292524"
+    },
+    "secondary": {
+      "main": "#000000",
+      "light": "#ebebeb",
+      "dark": "#000",
+      "contrastText": "#ffffff",
+      "contrastText2": "#f6e4e0",
+      "contrastTextLight": "#292524",
+      "contrastTextDark": "#ffffff"
+    },
+    "background": {
+      "main": "#ffffff",
+      "contrastText": "#292524",
+      "contrastText2": "#807f7f",
+      "contrastText3": "#92391C"
+    },
+    "surface": {
+      "main": "#ffffff",
+      "contrastText": "#292524",
+      "contrastText2": "#807f7f",
+      "contrastText3": "#92391C"
+    },
+    "tertiary": {
+      "main": "#faf8f7",
+      "contrastText": "#292524"
+    },
+    "success": {
+      "main": "#35bb66",
+      "light": "#e9fbec",
+      "contrastText": "#ffffff",
+      "contrastTextLight": "#292524",
+      "contrastTextLight2": "#28691b"
+    },
+    "error": {
+      "main": "#e02424",
+      "light": "#fbe9e9",
+      "contrastText": "#ffffff",
+      "contrastTextLight": "#292524",
+      "contrastTextLight2": "#e02424"
+    },
+    "grey": {
+      "0": "#ffffff",
+      "100": "#fafafa",
+      "200": "#f5f5f5",
+      "300": "#f0f0f0",
+      "400": "#a9a4a2",
+      "500": "#a9a4a2",
+      "600": "#7f7a79",
+      "700": "#6b6665",
+      "800": "#4b4645",
+      "900": "#292524"
+    }
+  }
+}
