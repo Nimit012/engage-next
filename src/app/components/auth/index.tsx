@@ -15,14 +15,14 @@ import Body3Typography from '../Body3Typography';
 
 import IRButton from '../IRButton';
 
-// const LandingImage = styled.img<{ isMobile: boolean }>`
-//   width: 332px;
-//   height: 204px;
-// `;
+const LandingImage = styled.img<{ isMobile: boolean }>`
+  width: 332px;
+  height: 204px;
+`;
 
-// const StyledBox = styled(Box)`
-// color: ${(props:any) => props.theme.palette.background.paperContrastText};
-// `;
+const StyledBox = styled(Box)`
+color: ${(props:any) => props.theme.palette.background.paperContrastText};
+`;
 
 interface IProps {
   config: {
@@ -62,12 +62,12 @@ function LandingPageTemplateIR(props: IProps) {
       }
   >       
       <Box display="flex" justifyContent="center" px={isMobile ? 2 : 4} py={4}>
-        {/* <LandingImage
+        <LandingImage
           isMobile={isMobile}
           data-tid="image-landing"
           src={"https://asgard-thor-assets.comprodls.com/engage/1704344116519/ootb-config/1df98e77/ootb/assets/images/landing_page.webp"}
           alt=""
-        /> */}
+        />
       </Box>
       <Box
         px={isMobile ? 2 : 4}
@@ -83,11 +83,11 @@ function LandingPageTemplateIR(props: IProps) {
             </SurfaceContrastText1Typo>
           </Box>
           {!false && (
-            <Box pt={3}>
+            <StyledBox pt={3}>
               <Body3Typography data-tid="text-subheading">
                 <FormattedMessage {...messages.mainSubHeading} />
               </Body3Typography>{" "}
-            </Box>
+            </StyledBox>
           )}
         </Box>
         <Box
