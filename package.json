@@ -11,11 +11,11 @@
   "dependencies": {
     "@emotion/cache": "^11.11.0",
     "@emotion/react": "^11.11.3",
+    "@emotion/server": "^11.11.0",
     "@emotion/styled": "^11.11.0",
     "@mui/icons-material": "^5.15.4",
     "@mui/material": "^5.15.4",
     "@mui/material-nextjs": "^5.15.3",
-    "libs-engageapp-ui-components": "git+https://leonardodls-builder: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@github.com/comproDLS-Engage/libs-engageapp-ui-components.git#0.65.1-temp",
     "next": "14.0.4",
     "react": "^18",
     "react-dom": "^18",

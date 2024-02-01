@@ -98,16 +98,7 @@ function LandingPageTemplateIR(props: IProps) {
           pb={5}
         >
           <Box display="flex" justifyContent="center" width={1} pb={3}>
-            <IRButton
-              id="main-focus-area"
-              data-tid="button-registerc"
-              onClick={redirectTosignUp}
-              variant="primary"
-            >
-              <Button2Typography>
-                <FormattedMessage {...messages.buttonSignup} />
-              </Button2Typography>
-            </IRButton>
+     
           </Box>
           <Box display="flex" justifyContent="center" textAlign="center">
             <SurfaceContrastText1Typo
@@ -118,15 +109,7 @@ function LandingPageTemplateIR(props: IProps) {
               <FormattedMessage {...messages.haveAnAccount} />
             </SurfaceContrastText1Typo>
             <Box pl={1}>
-              <EngLink
-                variant="primary"
-                dataTid="button-login"
-                onClick={redirectTosignIn}
-                typoVariant="caption"
-                tabIndex={0}
-              >
-                <FormattedMessage {...messages.loginLink} />
-              </EngLink>
+   
             </Box>
           </Box>
         </Box>
