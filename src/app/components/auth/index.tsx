@@ -1,12 +1,10 @@
-'use client'
+'use-client'
 import React from "react";
 import Box from "@mui/system/Box";
-// import { useRouter } from 'next/navigation';
 
 import styled from '@emotion/styled';
 import messages from './messages';
 import { FormattedMessage } from 'react-intl';
-// import { LogGAPageView, GAPageViews } from '../../utils/google-analytics';
 import AuthPageContainer from "../AuthPageContainer";
 
 import EngLink  from '../EngLink';
@@ -14,19 +12,17 @@ import Button2Typography from '../Button2Typography';
 import SurfaceContrastText1Typo from '../SurfaceContrastText1Typo';
 import AuthLanguageSwitcher from '../../containers/AuthLanguageSwitcher';
 import Body3Typography from '../Body3Typography';
-// import useViewport, { viewport } from '../../hooks/use-viewport-view';
-// import useOrientation, { orientation } from '../../hooks/use-orientation-view';
+
 import IRButton from '../IRButton';
-// import { ClientConfigService } from '../../services/client-config-service';
 
-const LandingImage = styled.img<{ isMobile: boolean }>`
-  width: 332px;
-  height: 204px;
-`;
+// const LandingImage = styled.img<{ isMobile: boolean }>`
+//   width: 332px;
+//   height: 204px;
+// `;
 
-const StyledBox = styled(Box)`
-color: ${(props:any) => props.theme.palette.background.paperContrastText};
-`;
+// const StyledBox = styled(Box)`
+// color: ${(props:any) => props.theme.palette.background.paperContrastText};
+// `;
 
 interface IProps {
   config: {
@@ -52,38 +48,26 @@ function LandingPageTemplateIR(props: IProps) {
     // router.push("/signup");
   };
 
-//   React.useEffect(() => {
-//     LogGAPageView(GAPageViews.LANDINGPAGE);
-//   }, []);
 
-//   const currentViewport = useViewport();
-//   const currentOrientation = useOrientation();
-//   const isLandscape = currentOrientation === orientation.LANDSCAPE;
-//   const isMobile = isLandscape || currentViewport === viewport.MOBILE;
+
     const isMobile = false;
-//   const centerImageUrl =
-//     ClientConfigService.getAssetsBasePath() + props.config.image;
 
   return (
     <AuthPageContainer
     isMobile={isMobile}
     mobileHeaderFixed={true}
-    // logoSrc={ClientConfigService.getLogoSrc()}
-    // logoAlt={ClientConfigService.getLogoAlt()}
-    // logoHeight={ClientConfigService.getLogoHeight()}
-    // marginTop={ClientConfigService.getLogoMarginTop()}
     renderLanguageSwitcher={() =>
 
        <AuthLanguageSwitcher />
       }
   >       
       <Box display="flex" justifyContent="center" px={isMobile ? 2 : 4} py={4}>
-        <LandingImage
+        {/* <LandingImage
           isMobile={isMobile}
           data-tid="image-landing"
           src={"https://asgard-thor-assets.comprodls.com/engage/1704344116519/ootb-config/1df98e77/ootb/assets/images/landing_page.webp"}
           alt=""
-        />
+        /> */}
       </Box>
       <Box
         px={isMobile ? 2 : 4}
@@ -99,11 +83,11 @@ function LandingPageTemplateIR(props: IProps) {
             </SurfaceContrastText1Typo>
           </Box>
           {!false && (
-            <StyledBox pt={3}>
+            <Box pt={3}>
               <Body3Typography data-tid="text-subheading">
                 <FormattedMessage {...messages.mainSubHeading} />
               </Body3Typography>{" "}
-            </StyledBox>
+            </Box>
           )}
         </Box>
         <Box
